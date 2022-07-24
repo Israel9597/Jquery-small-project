@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+</head>
+<link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+<link rel="stylesheet" href="./CSS/style.css">
+
+<body id="body">
+
+    <form class="form-container ">
+        <h2>Registration form</h2>
+        <div class="mb-2 ">
+            <label for="formGroupExampleInput2" class="form-label">First name</label>
+            <input type="text" class="form-control" id="first-Name" placeholder="First name">
+        </div>
+        <div class="mb-2">
+            <label for="formGroupExampleInput2" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="last-Name" placeholder="Last name">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">E-maill</label>
+            <input type="email" class="form-control" id="E-mail" placeholder="@ e-mail">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <section>
+        <div id="profile">
+            <h2> Your Profile</h2>
+            <div class="data">
+                <div><img class="image" src="./img/IMG_0845.JPG" alt=""></div>
+                <div id="paragraphs">
+                    <p id="p-name"></p>
+                    <p id="p-lname"></p>
+                    <p id="p-email"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./JS/jquery-3-6-0.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>

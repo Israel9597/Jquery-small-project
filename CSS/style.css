@@ -1,0 +1,67 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 170, 255, 0),
+    rgb(1, 188, 251)
+  );
+}
+.form-container {
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.form-control {
+  height: 50px;
+  margin-left: 2%;
+}
+h2 {
+  font-size: 3em;
+  height: 100px;
+  /* margin-left: 0px; */
+  margin-top: 90px;
+  padding-left: 30%;
+}
+label {
+  margin-left: 40px;
+}
+
+button {
+  margin-left: 35px;
+  width: 140px;
+}
+
+#profile {
+  /* border: 0.5px solid
+    linear-gradient(to left, rgba(0, 170, 255, 0), rgb(0, 0, 0)); */
+  width: 60%;
+  height: 380px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-left: 300px;
+  border-radius: 10px;
+  background-color: rgba(14, 15, 15, 0.557);
+  color: aliceblue;
+}
+
+#profile h2 {
+  margin: 2% -25% 5%;
+}
+
+.data {
+  display: flex;
+  /* background-color: aqua; */
+  margin: -20px 250px 0 -155px;
+  justify-content: space-between;
+  width: 87%;
+}
+
+.image {
+  width: 220px;
+  border-radius: 120px;
+}
+
+#paragraphs {
+  margin: 5% 5%;
+  width: 50%;
+}
